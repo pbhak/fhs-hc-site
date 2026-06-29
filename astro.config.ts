@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   redirects: {
+    '/': 'https://hackclub.com/',
     '/attendance': 'https://forms.fillout.com/t/oGMSdYVcYyus',
     '/discord': 'https://discord.gg/wusBcXetKe',
     '/gamedev': 'https://sunnyvale.libcal.com/event/16698074',
